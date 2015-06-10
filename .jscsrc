@@ -1,0 +1,7 @@
+{
+    "preset": "airbnb",
+    "validateIndentation": 4,
+    "disallowMultipleVarDecl": null,
+    "requireMultipleVarDecl": "onevar",
+    "validateQuoteMarks": true
+}

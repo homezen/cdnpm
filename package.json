@@ -1,0 +1,37 @@
+{
+  "name": "cdnpm",
+  "version": "0.1.0",
+  "description": "Manage external cdn deps",
+  "bin": {
+    "cdnpm": "bin/cdnpm.js"
+  },
+  "main": "lib/cdnpm.js",
+  "scripts": {
+    "test": "echo \"no tests\""
+  },
+  "preferGlobal": true,
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/SpainTrain/cdnpm.git"
+  },
+  "keywords": [
+    "cdn",
+    "dependecies",
+    "manager"
+  ],
+  "author": "spaintrain <mcspainhower+npm@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SpainTrain/cdnpm/issues"
+  },
+  "homepage": "https://github.com/SpainTrain/cdnpm#readme",
+  "dependencies": {
+    "cli-table": "^0.3.1",
+    "ls-lodash": "^2.2.3",
+    "npm": "^2.11.1",
+    "numeral": "^1.5.3",
+    "q": "^1.4.1",
+    "q-io": "^1.13.1",
+    "yargs": "^3.10.0"
+  }
+}

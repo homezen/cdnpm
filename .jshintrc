@@ -1,0 +1,21 @@
+{
+    "browserify"    : true,
+    "camelcase"     : true,
+    "indent"        : 4,
+    "strict"        : true,
+    "globalstrict"  : true,
+    "maxdepth"      : 5,
+    "node"          : true,
+    "newcap"        : false,
+    "quotmark"      : true,
+    "globals": {
+        "document"  : true,
+        "window"    : true,
+        "after"     : true,
+        "afterEach" : true,
+        "before"    : true,
+        "beforeEach": true,
+        "describe"  : true,
+        "it"        : true
+    }
+}
