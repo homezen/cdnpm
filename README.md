@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/home-buddy/cdnpm.png?label=ready&title=Ready)](https://waffle.io/home-buddy/cdnpm)
 # cdnpm
 
 Note: This is obviously not remotely complete.
