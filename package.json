@@ -1,11 +1,11 @@
 {
   "name": "cdnpm",
-  "version": "0.1.0",
+  "version": "0.2.0+abject-archipelago",
   "description": "Manage external cdn deps",
   "bin": {
     "cdnpm": "bin/cdnpm.js"
   },
-  "main": "lib/cdnpm.js",
+  "main": "lib/cdnpm-api.js",
   "scripts": {
     "test": "echo \"no tests\""
   },
