@@ -30,8 +30,6 @@ var cdnpm = require('cdnpm')(/*config*/);
 
 Note: config is currently unused (future use)
 
-Note: cdnpm is not yet in npm registry, See https://github.com/home-buddy/cdnpm/issues/2
-
 #### `getScriptTags`
 
 ```js
