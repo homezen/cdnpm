@@ -1,6 +1,6 @@
 {
   "name": "cdnpm",
-  "version": "0.2.0+abject-archipelago",
+  "version": "0.3.0+blurry-branchiopods",
   "description": "Manage external cdn deps",
   "bin": {
     "cdnpm": "bin/cdnpm.js"
@@ -9,7 +9,6 @@
   "scripts": {
     "test": "echo \"no tests\""
   },
-  "preferGlobal": true,
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/SpainTrain/cdnpm.git"

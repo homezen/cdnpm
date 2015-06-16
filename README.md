@@ -47,6 +47,22 @@ getScriptTags().then(function(depScriptTags) {
 
 `getScriptTags` returns a promise for the html markup for relevant script tags.  You will want to template this into your `index.html` wherever you deem appropriate for these libraries.
 
+#### `getWebpackExternals`
+
+```js
+var cdnpm = require('cdnpm')(/*config*/);
+var getWebpackExternals = cdnpm.getWebpackExternals;
+...
+getWebpackExternals().then(function(webpackExternalsConfig) {
+    /*
+    Code to merge webpackExternalsConfig into `externals` property of your webpack config
+    */
+});
+```
+
+`getWebpackExternals` returns a promise for an object that can be used as your webpack config's `externals` property.
+
+
 ### CLI Commands
 
 #### `cdnpm stats`
@@ -57,3 +73,7 @@ This command looks in your `package.json` for packages that are also hosted on C
 #### `cdnpm dry-tags`
 
 Dry run to see what script tags get returned by the API.  Useful to ensure that these are indeed the scripts you are looking for.
+
+#### `cdnpm dry-webpack`
+
+Dry run to see what webpack externals config gets returned by the API.
