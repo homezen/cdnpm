@@ -1,4 +1,5 @@
 [![Stories in Ready](https://badge.waffle.io/home-buddy/cdnpm.png?label=ready&title=Ready)](https://waffle.io/home-buddy/cdnpm)
+[![Dependency Status](https://www.versioneye.com/user/projects/55edfc38211c6b0019001acb/badge.svg?style=flat)](https://www.versioneye.com/user/projects/55edfc38211c6b0019001acb)
 # cdnpm
 
 Note: This is obviously not remotely complete.
