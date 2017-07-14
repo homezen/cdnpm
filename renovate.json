@@ -1,0 +1,6 @@
+{
+  "pinVersions": true,
+  "labels": ["renovate", "current iteration"],
+  "semanticCommits": true,
+  "depTypes": [{"depType": "dependencies", "pinVersions": false}]
+}
